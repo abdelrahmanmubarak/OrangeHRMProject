@@ -10,7 +10,7 @@ public class HomePage extends PageBase{
     }
     @FindBy(css = "top-level-menu-item")
     WebElement employeeListLink;
-    @FindBy(xpath = "//*[@id=\"actionWithoutDueSummaryContainer\"]/span[1]/span/span[2]/span/span[2]")
+    @FindBy(xpath = "//span[@class='primary-content-container']//span[1]//span[1]//div[1]//span[1]//span[1]//img[1]")
     WebElement leaveLink;
 
     public void clickOnEmployeeListLink(){

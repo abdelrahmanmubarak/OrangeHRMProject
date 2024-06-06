@@ -13,7 +13,7 @@ public class LoginPage extends PageBase{
     WebElement userNameTxt;
     @FindBy(id = "txtPassword")
     WebElement passwordTxt;
-    @FindBy(css = "img.icon.login-icon")
+    @FindBy(css = "button[type='submit']")
     WebElement loginBtn;
 
     public void logInProcess(String userName,String password){
